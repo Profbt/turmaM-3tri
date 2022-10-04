@@ -1,0 +1,72 @@
+body{
+    background: #cccccc; 
+    margin:0;
+    padding: 0;
+}
+#banner{
+	width: 100%;
+}
+
+h1{
+    margin-right: 150px;
+    margin-left: 150px;
+    text-align: center;
+    font-size: 80px;  
+}
+p{
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: center;
+    color:darkred
+}
+#par1{
+    font-size: 40px;
+}
+#drone{
+    margin-right: 250px;
+    margin-left: 250px;
+    font-size: 30px;
+    text-align: justify;
+}
+#djirtk{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.lista{
+        background: #a9af7c;
+        padding-bottom: 1cm;
+}
+
+.textocentralizado{
+    padding-top: 1cm;
+    text-align: center;
+    font-size: 40px; 
+    text-transform: uppercase;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top ;
+    width: 35%;
+    margin-right: 0% ;
+    margin-left: 7%;
+}
+
+li::marker {
+    content: "\27A1";
+    color: rgb(54, 126, 12);    
+}
+
+.trabalhos {
+    font-size: 40px;
+}
+
+.drone{
+    width: 40%;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+footer {
+    text-align: center;
+}
