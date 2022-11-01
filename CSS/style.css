@@ -4,8 +4,17 @@ body{
     padding: 0;
 }
 
+nav {
+    position: absolute;
+    top: 130px;
+    padding-right: 0px;
+}
+
 nav li {
-    display: inline;    
+    display: inline;  
+    margin: 0, 25px, 0, 15px;
+    padding: 30px;
+    padding-right: 0%;  
 }
 
 nav a {
@@ -13,6 +22,12 @@ nav a {
     text-transform: uppercase;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
 #banner{
 	width: 100%;
 }
