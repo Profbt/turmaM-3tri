@@ -16,7 +16,7 @@ header {
 
 .conteiner {
     position: relative;
-    width: 1080px;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -53,10 +53,12 @@ nav a:hover {
 }
 
 h1 {
+    margin-top: 20px;
     margin-right: 150px;
     margin-left: 150px;
     text-align: center;
-    font-size: 80px;
+    font-size: 60px;
+    color: #02524d;
 }
 
 p {
