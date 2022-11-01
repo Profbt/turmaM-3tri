@@ -1,6 +1,6 @@
-body{
-    background: #cccccc; 
-    margin:0;
+body {
+    background: #cccccc;
+    margin: 0;
     padding: 0;
 }
 
@@ -11,16 +11,20 @@ nav {
 }
 
 nav li {
-    display: inline;  
+    display: inline;
     margin: 0, 25px, 0, 15px;
     padding: 30px;
-    padding-right: 0%;  
+    padding-right: 0%;
 }
 
 nav a {
-    text-decoration: none;
     text-transform: uppercase;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #2e2c2c;
+    font-weight: lighter;
+    font-size: 35px;
+    text-decoration: none;
+    color: #02524d;
+}
 }
 
 nav a:hover {
@@ -28,70 +32,75 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#banner{
-	width: 100%;
+#banner {
+    width: 100%;
 }
 
-h1{
+h1 {
     margin-right: 150px;
     margin-left: 150px;
     text-align: center;
-    font-size: 80px;  
+    font-size: 80px;
 }
-p{
+
+p {
     margin-right: 200px;
     margin-left: 200px;
     text-align: center;
-    color:darkred
+    color: darkred
 }
-#par1{
+
+#par1 {
     font-size: 40px;
 }
-#drone{
+
+#drone {
     margin-right: 250px;
     margin-left: 250px;
     font-size: 30px;
     text-align: justify;
 }
-#djirtk{
+
+#djirtk {
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
-.lista{
-        background: #a9af7c;
-        padding-bottom: 1cm;
+.lista {
+    background: #a9af7c;
+    padding-bottom: 1cm;
 }
 
-.textocentralizado{
+.textocentralizado {
     padding-top: 1cm;
     text-align: center;
-    font-size: 40px; 
+    font-size: 40px;
     text-transform: uppercase;
 }
 
-ul{
+ul {
     display: inline-block;
-    vertical-align: top ;
+    vertical-align: top;
     width: 35%;
-    margin-right: 0% ;
+    margin-right: 0%;
     margin-left: 7%;
 }
 
 li::marker {
     content: "\27A1";
-    color: rgb(54, 126, 12);    
+    color: rgb(54, 126, 12);
 }
 
 .trabalhos {
     font-size: 40px;
 }
 
-.drone{
+.drone {
     width: 40%;
     margin-right: 0px;
     padding-left: 0px;
 }
+
 footer {
     text-align: center;
 }
