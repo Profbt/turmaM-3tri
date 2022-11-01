@@ -28,6 +28,7 @@ nav li {
 }
 
 nav {
+    position: absolute;
     top: 130px;
     padding-right: 0px;
 }
