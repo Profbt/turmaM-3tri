@@ -30,7 +30,7 @@ nav li {
 nav {
     position: absolute;
     top: 130px;
-    padding-right: 0px;
+    right: 0px;
 }
 
 nav a {
