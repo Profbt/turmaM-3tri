@@ -100,17 +100,12 @@ p {
     text-transform: uppercase;
 }
 
-ul {
+.list-trab {
     display: inline-block;
     vertical-align: top;
     width: 35%;
     margin-right: 0%;
     margin-left: 7%;
-}
-
-li::marker {
-    content: "\27A1";
-    color: rgb(54, 126, 12);
 }
 
 .trabalhos {
