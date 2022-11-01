@@ -24,15 +24,10 @@ header {
     width: 100%;
 }
 
-nav li {
-    display: inline;
-    margin: 0, 15px, 0, 15px;
-    padding: 25px;
-    padding-right: 0%;
-}
+
 
 nav {
-    position: absolute;
+    position:absolute;
     top: 130px;
     right: 0px;
 }
