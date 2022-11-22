@@ -14,7 +14,7 @@ header {
 
 }
 
-.conteiner {
+.caixa {
     position: relative;
     width: 940px;
     margin: 0 auto;
@@ -24,17 +24,20 @@ header {
     width: 100%;
 }
 
+
 nav li {
     display: inline;
-    margin: 0, 15px, 0, 15px;
-    padding: 25px;
+    margin: 0, 25px, 0, 15px;
+    padding: 30px;
     padding-right: 0%;
+
 }
 
 nav {
-    position:absolute;
+    position: absolute;
     top: 130px;
     right: 0px;
+
 }
 
 nav a {
@@ -46,18 +49,17 @@ nav a {
     color: #02524d;
 }
 
-
 nav a:hover {
     color: #c78c19;
     text-decoration: underline;
 }
 
+
 #banner {
     width: 100%;
-}
-
-.principal {
-    width: 100%;
+    height: 30%;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 h1 {
@@ -78,11 +80,69 @@ h1 {
     color: #02524d;
 }
 
-p {
-    margin-right: 200px;
-    margin-left: 200px;
+#servico {
     text-align: center;
-    color: darkred
+    font-size: 40px;
+    color: #02524d;
+    margin-bottom: -30px;
+}
+
+.icon {
+    width: 65%;
+}
+
+
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 0px 0;
+}
+
+.produtos li p {
+    text-align: center;
+    color: #03403c;
+}
+
+.produtos li {
+    display: inline-block;
+    margin: 0 0 0 15px;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    font-size: 25px;
+    color: #02524d;
+    /*background: #f2f2f2;*/
+    margin: 0.5% 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*border: 2px solid #02524d;
+    border-radius: 10px;*/
+
+}
+
+.produtos li:hover {
+    color: #c78c19;
+    font-size: 26px;
+
+}
+
+.produtos li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.titulosprodutos {
+    width: 100%;
+}
+
+.textos {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: justify;
+    color: darkred;
+    font-size: 30px;
 }
 
 #par1 {
@@ -102,23 +162,24 @@ p {
 }
 
 .lista {
-    background: #a9af7c;
+    background: rgba(32, 135, 237, 0.3);
     padding-bottom: 1cm;
+
 }
 
 .textocentralizado {
     padding-top: 1cm;
     text-align: center;
     font-size: 40px;
-    text-transform: uppercase;
 }
 
-.list-trab {
+.service {
     display: inline-block;
     vertical-align: top;
-    width: 35%;
-    margin-right: 0%;
-    margin-left: 7%;
+    width: 30%;
+    padding-right: 0%;
+    padding-left: 10%;
+    border: solid #2e2c2c
 }
 
 .trabalhos {
@@ -126,8 +187,9 @@ p {
 }
 
 .drone {
-    width: 40%;
+    width: 47%;
     margin-right: 0px;
-    padding-left: 0px;
+    padding-left: 38px;
+    padding-top: 15px;
 }
 
