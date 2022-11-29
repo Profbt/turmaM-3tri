@@ -47,8 +47,8 @@ nav a {
 }
 
 
-nav a:visited {
-    color: navy;
+nav a:hover {
+    color: #c78c19;
     text-decoration: underline;
 }
 
