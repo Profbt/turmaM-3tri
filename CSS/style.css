@@ -20,8 +20,14 @@ header {
     margin: 0 auto;
 }
 
-.principal {
+.conteiner-principal {
     width: 100%;
+    background-color: #02524d;
+}
+
+.principal {
+    width: 85%;
+    color: white;
 }
 
 nav li {
